@@ -1,0 +1,10 @@
+body {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.time_line {
+  margin-top: 20%;
+  text-align: center;
+  position: relative;
+}
