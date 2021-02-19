@@ -1,0 +1,98 @@
+.task_wrapper {
+  display: inline-block;
+}
+
+.task {
+    width: 20rem;
+    box-shadow: 5px 5px 10px #aaa;
+    border-radius: 5px;
+    text-align: left;
+    margin: 1rem auto;
+  }
+  
+  .task_title {
+    padding: 10px;
+    background-color: #cb2431;
+    color: white;
+    font-size: x-large;
+    height: 3rem;
+    line-height: 3rem;
+  }
+
+  .task_body {
+    padding: 15px;
+    font-size: small;
+    position: relative;
+  }
+
+  .task_list_icon {
+    width: 1rem;
+    vertical-align: bottom;
+  }
+
+  .status_tag {
+    position: absolute;
+    right: 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 3px;
+    background-color: #cb2431;
+    color: white;
+  }
+  
+  .task_title_mask {
+    position: absolute;
+    top: 0;
+    height: 3rem;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .task_footer {
+    position: relative;
+  }
+  
+  .task_arrow {
+    width: 10px;
+    height: 10px;
+    background: white;
+    transform: rotate(45deg);
+    position: absolute;
+    left: calc(50% - 5px);
+    top: -5px;
+  }
+
+
+
+
+.line {
+  height: 0.2rem;
+  width: 10rem;
+  background-color: #aaa;
+  color: #aaa;
+  display: inline-block;
+}
+.node {
+  display: inline-block;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+}
+
+
+.task_add {
+  background-color: darkorange;
+}
+.task_done {
+  background-color: green;
+}
+.task_pending {
+  background-color: #cb2431;
+}
+.task_abandon {
+  background-color: #cb2431;
+}
+.task_waiting {
+  background-color: #cb2431;
+}
